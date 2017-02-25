@@ -13,13 +13,13 @@ import java.sql.SQLException;
  */
 public class ConexionHelperSQLServer {
 
-    /* //Desarrollo
+     /* //Desarrollo
     String ip = "192.168.4.228:1434";
     String classs = "net.sourceforge.jtds.jdbc.Driver";
     String db = "GESTIONPRODCAF_Desarrollo";
     String user = "GESTIONPRODCAF";
     String pass = "GESTIONPRODCAF";
-    */
+*/
 
     //Productivo
     String ip = "192.168.4.154:1433";
@@ -27,6 +27,7 @@ public class ConexionHelperSQLServer {
     String db = "GESTIONPRODCAF";
     String user = "GESTIONPRODCAF";
     String pass = "GESTIONPRODCAF";
+
 
     @SuppressLint("NewApi")
     public Connection CONN() {
